@@ -37,6 +37,7 @@
 		1C7543D81CA0962900057862 /* stinkbug.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1C7543C21CA0962900057862 /* stinkbug.jpg */; };
 		1C7543D91CA0962900057862 /* wolfSpider.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1C7543C31CA0962900057862 /* wolfSpider.jpg */; };
 		1C7543DB1CA096E600057862 /* ScaryBugTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7543DA1CA096E600057862 /* ScaryBugTableViewController.swift */; };
+		1CD911C91CA0A1E800A33EAD /* BugSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD911C81CA0A1E800A33EAD /* BugSection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +73,7 @@
 		1C7543C21CA0962900057862 /* stinkbug.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stinkbug.jpg; sourceTree = "<group>"; };
 		1C7543C31CA0962900057862 /* wolfSpider.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wolfSpider.jpg; sourceTree = "<group>"; };
 		1C7543DA1CA096E600057862 /* ScaryBugTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScaryBugTableViewController.swift; sourceTree = "<group>"; };
+		1CD911C81CA0A1E800A33EAD /* BugSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BugSection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 		1C7543941CA0959200057862 /* TableViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				1CD911CA1CA0A69000A33EAD /* Models */,
 				1C7543A71CA095A800057862 /* Resources */,
 				1C7543951CA0959200057862 /* AppDelegate.swift */,
 				1C7543991CA0959200057862 /* Main.storyboard */,
@@ -132,7 +135,6 @@
 				1C7543B91CA0962900057862 /* prayingMantis.jpg */,
 				1C7543BA1CA0962900057862 /* roach.jpg */,
 				1C7543BB1CA0962900057862 /* robberFly.jpg */,
-				1C7543BC1CA0962900057862 /* ScaryBug.swift */,
 				1C7543BD1CA0962900057862 /* scorpion.jpg */,
 				1C7543BE1CA0962900057862 /* shieldBug.jpg */,
 				1C7543BF1CA0962900057862 /* shockedface2_empty.png */,
@@ -145,6 +147,15 @@
 				1C7543AA1CA095EB00057862 /* burritoInsect.jpg */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		1CD911CA1CA0A69000A33EAD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1C7543BC1CA0962900057862 /* ScaryBug.swift */,
+				1CD911C81CA0A1E800A33EAD /* BugSection.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,6 +255,7 @@
 			files = (
 				1C7543DB1CA096E600057862 /* ScaryBugTableViewController.swift in Sources */,
 				1C7543961CA0959200057862 /* AppDelegate.swift in Sources */,
+				1CD911C91CA0A1E800A33EAD /* BugSection.swift in Sources */,
 				1C7543D21CA0962900057862 /* ScaryBug.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -394,6 +406,7 @@
 				1C7543A61CA0959200057862 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

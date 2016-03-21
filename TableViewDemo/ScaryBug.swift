@@ -2,8 +2,6 @@
 //  ScaryBug.swift
 //  Scary Bugs
 //
-//  Created by Brian on 10/6/15.
-//  Copyright © 2015 Razeware LLC. All rights reserved.
 //
 
 import UIKit

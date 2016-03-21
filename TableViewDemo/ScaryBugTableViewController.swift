@@ -10,12 +10,14 @@ import UIKit
 
 class ScaryBugTableViewController: UITableViewController {
     
-    var scaryBugs:[ScaryBug]!
+    //var scaryBugs:[ScaryBug]!
+    var bugSections = [BugSection]()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        scaryBugs = ScaryBug.bugs()
+        //scaryBugs = ScaryBug.bugs()
         self.navigationItem.title = "Scary Bugs"
+        setupBugs()
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
         
@@ -27,23 +29,41 @@ class ScaryBugTableViewController: UITableViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    func setupBugs(){
+     bugSections.append(BugSection(howScary: .NotScary))
+     bugSections.append(BugSection(howScary: .ALittleScary))
+     bugSections.append(BugSection(howScary: .AverageScary))
+     bugSections.append(BugSection(howScary: .QuiteScary))
+     bugSections.append(BugSection(howScary: .Aiiiiieeeee))
+     
+        let bugs = ScaryBug.bugs()
+        for bug in bugs{
+        let bugSection = bugSections[bug.howScary.rawValue]
+            bugSection.bugs.append(bug)
+        }
+    }
 
     // MARK: - Table view data source
 
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 1
+        return bugSections.count
     }
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return scaryBugs.count
+        return bugSections[section].bugs.count
+    }
+    
+    override func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        return ScaryBug.scaryFactorToString(bugSections[section].howScary)
     }
 
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath)
-        let scaryBug = scaryBugs[indexPath.row]
+        let scaryBug = bugSections[indexPath.section].bugs[indexPath.row]
         cell.imageView?.image = scaryBug.image
         cell.textLabel?.text = scaryBug.name
         // Configure the cell...
