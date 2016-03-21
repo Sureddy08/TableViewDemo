@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C7543961CA0959200057862 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7543951CA0959200057862 /* AppDelegate.swift */; };
+		1C75439B1CA0959200057862 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C7543991CA0959200057862 /* Main.storyboard */; };
+		1C75439D1CA0959200057862 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C75439C1CA0959200057862 /* Assets.xcassets */; };
+		1C7543A01CA0959200057862 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C75439E1CA0959200057862 /* LaunchScreen.storyboard */; };
+		1C7543AB1CA095EB00057862 /* bee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1C7543A81CA095EB00057862 /* bee.jpg */; };
+		1C7543AC1CA095EB00057862 /* beetle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1C7543A91CA095EB00057862 /* beetle.jpg */; };
+		1C7543AD1CA095EB00057862 /* burritoInsect.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1C7543AA1CA095EB00057862 /* burritoInsect.jpg */; };
+		1C7543C41CA0962900057862 /* caterpillar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1C7543AE1CA0962900057862 /* caterpillar.jpg */; };
+		1C7543C51CA0962900057862 /* centipede.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1C7543AF1CA0962900057862 /* centipede.jpg */; };
+		1C7543C61CA0962900057862 /* cicada.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1C7543B01CA0962900057862 /* cicada.jpg */; };
+		1C7543C71CA0962900057862 /* cockroach.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1C7543B11CA0962900057862 /* cockroach.jpg */; };
+		1C7543C81CA0962900057862 /* exoskeleton.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1C7543B21CA0962900057862 /* exoskeleton.jpg */; };
+		1C7543C91CA0962900057862 /* fly.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1C7543B31CA0962900057862 /* fly.jpg */; };
+		1C7543CA1CA0962900057862 /* giantMoth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1C7543B41CA0962900057862 /* giantMoth.jpg */; };
+		1C7543CB1CA0962900057862 /* grasshopper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1C7543B51CA0962900057862 /* grasshopper.jpg */; };
+		1C7543CC1CA0962900057862 /* ladybug.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1C7543B61CA0962900057862 /* ladybug.jpg */; };
+		1C7543CD1CA0962900057862 /* mosquito.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1C7543B71CA0962900057862 /* mosquito.jpg */; };
+		1C7543CE1CA0962900057862 /* potatoBug.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1C7543B81CA0962900057862 /* potatoBug.jpg */; };
+		1C7543CF1CA0962900057862 /* prayingMantis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1C7543B91CA0962900057862 /* prayingMantis.jpg */; };
+		1C7543D01CA0962900057862 /* roach.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1C7543BA1CA0962900057862 /* roach.jpg */; };
+		1C7543D11CA0962900057862 /* robberFly.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1C7543BB1CA0962900057862 /* robberFly.jpg */; };
+		1C7543D21CA0962900057862 /* ScaryBug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7543BC1CA0962900057862 /* ScaryBug.swift */; };
+		1C7543D31CA0962900057862 /* scorpion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1C7543BD1CA0962900057862 /* scorpion.jpg */; };
+		1C7543D41CA0962900057862 /* shieldBug.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1C7543BE1CA0962900057862 /* shieldBug.jpg */; };
+		1C7543D51CA0962900057862 /* shockedface2_empty.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C7543BF1CA0962900057862 /* shockedface2_empty.png */; };
+		1C7543D61CA0962900057862 /* shockedface2_full.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C7543C01CA0962900057862 /* shockedface2_full.png */; };
+		1C7543D71CA0962900057862 /* stagBeetle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1C7543C11CA0962900057862 /* stagBeetle.jpg */; };
+		1C7543D81CA0962900057862 /* stinkbug.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1C7543C21CA0962900057862 /* stinkbug.jpg */; };
+		1C7543D91CA0962900057862 /* wolfSpider.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1C7543C31CA0962900057862 /* wolfSpider.jpg */; };
+		1C7543DB1CA096E600057862 /* ScaryBugTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7543DA1CA096E600057862 /* ScaryBugTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1C7543921CA0959200057862 /* TableViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C7543951CA0959200057862 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1C75439A1CA0959200057862 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1C75439C1CA0959200057862 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1C75439F1CA0959200057862 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1C7543A11CA0959200057862 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C7543A81CA095EB00057862 /* bee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bee.jpg; sourceTree = "<group>"; };
+		1C7543A91CA095EB00057862 /* beetle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beetle.jpg; sourceTree = "<group>"; };
+		1C7543AA1CA095EB00057862 /* burritoInsect.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = burritoInsect.jpg; sourceTree = "<group>"; };
+		1C7543AE1CA0962900057862 /* caterpillar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = caterpillar.jpg; sourceTree = "<group>"; };
+		1C7543AF1CA0962900057862 /* centipede.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = centipede.jpg; sourceTree = "<group>"; };
+		1C7543B01CA0962900057862 /* cicada.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cicada.jpg; sourceTree = "<group>"; };
+		1C7543B11CA0962900057862 /* cockroach.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cockroach.jpg; sourceTree = "<group>"; };
+		1C7543B21CA0962900057862 /* exoskeleton.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = exoskeleton.jpg; sourceTree = "<group>"; };
+		1C7543B31CA0962900057862 /* fly.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fly.jpg; sourceTree = "<group>"; };
+		1C7543B41CA0962900057862 /* giantMoth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = giantMoth.jpg; sourceTree = "<group>"; };
+		1C7543B51CA0962900057862 /* grasshopper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = grasshopper.jpg; sourceTree = "<group>"; };
+		1C7543B61CA0962900057862 /* ladybug.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ladybug.jpg; sourceTree = "<group>"; };
+		1C7543B71CA0962900057862 /* mosquito.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mosquito.jpg; sourceTree = "<group>"; };
+		1C7543B81CA0962900057862 /* potatoBug.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = potatoBug.jpg; sourceTree = "<group>"; };
+		1C7543B91CA0962900057862 /* prayingMantis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = prayingMantis.jpg; sourceTree = "<group>"; };
+		1C7543BA1CA0962900057862 /* roach.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = roach.jpg; sourceTree = "<group>"; };
+		1C7543BB1CA0962900057862 /* robberFly.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = robberFly.jpg; sourceTree = "<group>"; };
+		1C7543BC1CA0962900057862 /* ScaryBug.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScaryBug.swift; sourceTree = "<group>"; };
+		1C7543BD1CA0962900057862 /* scorpion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = scorpion.jpg; sourceTree = "<group>"; };
+		1C7543BE1CA0962900057862 /* shieldBug.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shieldBug.jpg; sourceTree = "<group>"; };
+		1C7543BF1CA0962900057862 /* shockedface2_empty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shockedface2_empty.png; sourceTree = "<group>"; };
+		1C7543C01CA0962900057862 /* shockedface2_full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shockedface2_full.png; sourceTree = "<group>"; };
+		1C7543C11CA0962900057862 /* stagBeetle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stagBeetle.jpg; sourceTree = "<group>"; };
+		1C7543C21CA0962900057862 /* stinkbug.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stinkbug.jpg; sourceTree = "<group>"; };
+		1C7543C31CA0962900057862 /* wolfSpider.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wolfSpider.jpg; sourceTree = "<group>"; };
+		1C7543DA1CA096E600057862 /* ScaryBugTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScaryBugTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C75438F1CA0959100057862 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C7543891CA0959100057862 = {
+			isa = PBXGroup;
+			children = (
+				1C7543941CA0959200057862 /* TableViewDemo */,
+				1C7543931CA0959200057862 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1C7543931CA0959200057862 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C7543921CA0959200057862 /* TableViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C7543941CA0959200057862 /* TableViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1C7543A71CA095A800057862 /* Resources */,
+				1C7543951CA0959200057862 /* AppDelegate.swift */,
+				1C7543991CA0959200057862 /* Main.storyboard */,
+				1C75439C1CA0959200057862 /* Assets.xcassets */,
+				1C75439E1CA0959200057862 /* LaunchScreen.storyboard */,
+				1C7543A11CA0959200057862 /* Info.plist */,
+				1C7543DA1CA096E600057862 /* ScaryBugTableViewController.swift */,
+			);
+			path = TableViewDemo;
+			sourceTree = "<group>";
+		};
+		1C7543A71CA095A800057862 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1C7543AE1CA0962900057862 /* caterpillar.jpg */,
+				1C7543AF1CA0962900057862 /* centipede.jpg */,
+				1C7543B01CA0962900057862 /* cicada.jpg */,
+				1C7543B11CA0962900057862 /* cockroach.jpg */,
+				1C7543B21CA0962900057862 /* exoskeleton.jpg */,
+				1C7543B31CA0962900057862 /* fly.jpg */,
+				1C7543B41CA0962900057862 /* giantMoth.jpg */,
+				1C7543B51CA0962900057862 /* grasshopper.jpg */,
+				1C7543B61CA0962900057862 /* ladybug.jpg */,
+				1C7543B71CA0962900057862 /* mosquito.jpg */,
+				1C7543B81CA0962900057862 /* potatoBug.jpg */,
+				1C7543B91CA0962900057862 /* prayingMantis.jpg */,
+				1C7543BA1CA0962900057862 /* roach.jpg */,
+				1C7543BB1CA0962900057862 /* robberFly.jpg */,
+				1C7543BC1CA0962900057862 /* ScaryBug.swift */,
+				1C7543BD1CA0962900057862 /* scorpion.jpg */,
+				1C7543BE1CA0962900057862 /* shieldBug.jpg */,
+				1C7543BF1CA0962900057862 /* shockedface2_empty.png */,
+				1C7543C01CA0962900057862 /* shockedface2_full.png */,
+				1C7543C11CA0962900057862 /* stagBeetle.jpg */,
+				1C7543C21CA0962900057862 /* stinkbug.jpg */,
+				1C7543C31CA0962900057862 /* wolfSpider.jpg */,
+				1C7543A81CA095EB00057862 /* bee.jpg */,
+				1C7543A91CA095EB00057862 /* beetle.jpg */,
+				1C7543AA1CA095EB00057862 /* burritoInsect.jpg */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C7543911CA0959100057862 /* TableViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C7543A41CA0959200057862 /* Build configuration list for PBXNativeTarget "TableViewDemo" */;
+			buildPhases = (
+				1C75438E1CA0959100057862 /* Sources */,
+				1C75438F1CA0959100057862 /* Frameworks */,
+				1C7543901CA0959100057862 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TableViewDemo;
+			productName = TableViewDemo;
+			productReference = 1C7543921CA0959200057862 /* TableViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C75438A1CA0959100057862 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = VKS;
+				TargetAttributes = {
+					1C7543911CA0959100057862 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 1C75438D1CA0959100057862 /* Build configuration list for PBXProject "TableViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1C7543891CA0959100057862;
+			productRefGroup = 1C7543931CA0959200057862 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C7543911CA0959100057862 /* TableViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C7543901CA0959100057862 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C7543D91CA0962900057862 /* wolfSpider.jpg in Resources */,
+				1C7543CB1CA0962900057862 /* grasshopper.jpg in Resources */,
+				1C7543A01CA0959200057862 /* LaunchScreen.storyboard in Resources */,
+				1C7543AD1CA095EB00057862 /* burritoInsect.jpg in Resources */,
+				1C7543C61CA0962900057862 /* cicada.jpg in Resources */,
+				1C7543C71CA0962900057862 /* cockroach.jpg in Resources */,
+				1C7543C81CA0962900057862 /* exoskeleton.jpg in Resources */,
+				1C75439D1CA0959200057862 /* Assets.xcassets in Resources */,
+				1C7543D11CA0962900057862 /* robberFly.jpg in Resources */,
+				1C7543CA1CA0962900057862 /* giantMoth.jpg in Resources */,
+				1C7543D71CA0962900057862 /* stagBeetle.jpg in Resources */,
+				1C7543D41CA0962900057862 /* shieldBug.jpg in Resources */,
+				1C7543C41CA0962900057862 /* caterpillar.jpg in Resources */,
+				1C7543D01CA0962900057862 /* roach.jpg in Resources */,
+				1C7543D61CA0962900057862 /* shockedface2_full.png in Resources */,
+				1C7543D31CA0962900057862 /* scorpion.jpg in Resources */,
+				1C7543AB1CA095EB00057862 /* bee.jpg in Resources */,
+				1C7543C51CA0962900057862 /* centipede.jpg in Resources */,
+				1C7543C91CA0962900057862 /* fly.jpg in Resources */,
+				1C7543CD1CA0962900057862 /* mosquito.jpg in Resources */,
+				1C75439B1CA0959200057862 /* Main.storyboard in Resources */,
+				1C7543CF1CA0962900057862 /* prayingMantis.jpg in Resources */,
+				1C7543CC1CA0962900057862 /* ladybug.jpg in Resources */,
+				1C7543D51CA0962900057862 /* shockedface2_empty.png in Resources */,
+				1C7543AC1CA095EB00057862 /* beetle.jpg in Resources */,
+				1C7543D81CA0962900057862 /* stinkbug.jpg in Resources */,
+				1C7543CE1CA0962900057862 /* potatoBug.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C75438E1CA0959100057862 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C7543DB1CA096E600057862 /* ScaryBugTableViewController.swift in Sources */,
+				1C7543961CA0959200057862 /* AppDelegate.swift in Sources */,
+				1C7543D21CA0962900057862 /* ScaryBug.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1C7543991CA0959200057862 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C75439A1CA0959200057862 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1C75439E1CA0959200057862 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C75439F1CA0959200057862 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1C7543A21CA0959200057862 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1C7543A31CA0959200057862 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1C7543A51CA0959200057862 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TableViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sureddy.TableViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1C7543A61CA0959200057862 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TableViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sureddy.TableViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C75438D1CA0959100057862 /* Build configuration list for PBXProject "TableViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C7543A21CA0959200057862 /* Debug */,
+				1C7543A31CA0959200057862 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C7543A41CA0959200057862 /* Build configuration list for PBXNativeTarget "TableViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C7543A51CA0959200057862 /* Debug */,
+				1C7543A61CA0959200057862 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1C75438A1CA0959100057862 /* Project object */;
+}
