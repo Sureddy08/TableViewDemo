@@ -12,11 +12,14 @@ class ScaryBugTableViewController: UITableViewController {
     
     //var scaryBugs:[ScaryBug]!
     var bugSections = [BugSection]()
+    
+    @IBOutlet weak var bugTableView: UITableView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         //scaryBugs = ScaryBug.bugs()
         self.navigationItem.title = "Scary Bugs"
+        self.navigationItem.rightBarButtonItem = editButtonItem()
         setupBugs()
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
@@ -30,7 +33,7 @@ class ScaryBugTableViewController: UITableViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    func setupBugs(){
+    private func setupBugs(){
      bugSections.append(BugSection(howScary: .NotScary))
      bugSections.append(BugSection(howScary: .ALittleScary))
      bugSections.append(BugSection(howScary: .AverageScary))
@@ -42,6 +45,14 @@ class ScaryBugTableViewController: UITableViewController {
         let bugSection = bugSections[bug.howScary.rawValue]
             bugSection.bugs.append(bug)
         }
+    }
+    
+    override func setEditing(editing: Bool, animated: Bool) {
+        super.setEditing(editing, animated: true)
+        if(editing){
+        self.bugTableView.setEditing(editing, animated: true)
+        }
+       
     }
 
     // MARK: - Table view data source
@@ -80,17 +91,16 @@ class ScaryBugTableViewController: UITableViewController {
     }
     */
 
-    /*
+    
     // Override to support editing the table view.
     override func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
         if editingStyle == .Delete {
             // Delete the row from the data source
+            bugSections[indexPath.section].bugs.removeAtIndex(indexPath.row)
             tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: .Fade)
-        } else if editingStyle == .Insert {
-            // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-        }    
+        }
     }
-    */
+    
 
     /*
     // Override to support rearranging the table view.

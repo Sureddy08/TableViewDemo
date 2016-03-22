@@ -25,7 +25,7 @@
                                             <rect key="frame" x="15" y="0.0" width="290" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
@@ -38,6 +38,9 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="Siv-Zh-6Uz"/>
+                    <connections>
+                        <outlet property="bugTableView" destination="8A3-hm-P0V" id="xcb-br-dbg"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eBC-6y-VDO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
